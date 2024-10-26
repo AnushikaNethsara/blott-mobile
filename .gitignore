@@ -9,6 +9,7 @@ dist/
 web-build/
 
 .env
+eas.json
 
 # Native
 *.orig.*

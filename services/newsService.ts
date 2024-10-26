@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_URL = process.env.API_URL;
-const API_TOKEN = process.env.API_TOKEN;
+const API_URL = process.env.EXPO_PUBLIC_API_URL;
+const API_TOKEN = process.env.EXPO_PUBLIC_API_TOKEN;
 
 export interface NewsItem {
   id: string;
